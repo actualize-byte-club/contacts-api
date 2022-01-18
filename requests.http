@@ -1,0 +1,10 @@
+GET http://localhost:3000/contacts
+
+### 
+
+PATCH http://localhost:3000/contacts/1
+Content-Type: application/json
+
+{
+  "address": "White House, Washington DC"
+}
